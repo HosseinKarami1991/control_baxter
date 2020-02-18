@@ -1,0 +1,8 @@
+#input
+sim_robot simRobot							# initial and goal condidion of the robot to simulate
+---
+# Output
+bool simResponse		# Vector of Path points
+float64 time
+float64[7] jointsfinal_arm1
+float64[7] jointsfinal_arm2
